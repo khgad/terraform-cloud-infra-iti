@@ -35,3 +35,10 @@ module "instances" {
   instance_type = var.INSTANCE_TYPE
   ami_image = var.AMI_IMAGE
 }
+
+module "db" {
+  source = "./DB"
+
+  pvt_sub_1_id = module.network.pvt_sub_1_id
+  pvt_sub_2_id = module.network.pvt_sub_2_id
+}

@@ -21,7 +21,7 @@ resource "aws_instance" "az1-plc" {
   }
 
   provisioner "local-exec" {
-    command = "echo ${self.public_ip} >> ./inventory"
+    command = "echo ${self.public_ip} > ./inventory"
   }
 
 }
