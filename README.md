@@ -30,7 +30,7 @@ The project also includes two workspaces for deploying the infrastructure in dif
 To get started with this project, clone this repository to your local machine:
 
 ```
-$ git clone https://github.com/khgad/terraform-iti.git
+$ https://github.com/khgad/terraform-cloud-infra-iti.git
 ```
 
 ## Prerequisites
