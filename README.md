@@ -49,7 +49,7 @@ Before running the deployment script, you will need to have the following:
 1. Navigate to the project directory:
 
     ```bash
-    $ cd terraform-iti
+    $ cd terraform-cloud-infra-iti
     ```
 
 2. Create the 2 workspaces
