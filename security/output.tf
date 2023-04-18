@@ -13,3 +13,11 @@ output "sg-ssh-id" {
 output "sg-vpc-id" {
   value = aws_security_group.allow-vpc-cidr.id
 }
+
+output "sg-rds-id" {
+  value = aws_security_group.rds-sg.id
+}
+
+output "sg-ec-id" {
+  value = aws_security_group.elasticache-sg.id
+}

@@ -8,4 +8,5 @@ resource "aws_elasticache_cluster" "elasticache" {
   port                 = 6379
   subnet_group_name = aws_elasticache_subnet_group.elastic-sub-group.name
   # add security group
+  security_group_ids = [ var.sg-ec-id ]
 }

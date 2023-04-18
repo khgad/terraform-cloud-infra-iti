@@ -4,6 +4,7 @@ variable "CIDR" {
 
 variable "COMPANY_NAME" {
   type = string
+  default = "ITI"
 }
 
 variable "PUBLIC_SUB_1" {
@@ -23,17 +24,17 @@ variable "PRIVATE_SUB_2" {
 }
 
 variable "REGION" {
-  type = string
+  type    = string
   default = "us-east-1"
 }
 
 variable "AZ_1" {
-  type = string
+  type    = string
   default = "us-east-1a"
 }
 
 variable "AZ_2" {
-  type = string
+  type    = string
   default = "us-east-1b"
 }
 
@@ -42,6 +43,10 @@ variable "INSTANCE_TYPE" {
 }
 
 variable "AMI_IMAGE" {
+  type    = string
+  default = "ami-069aabeee6f53e7bf"
+}
+
+variable "RDS_CREDS_SECRET" {
   type = string
-  default = "ami-06e46074ae430fba6"
 }

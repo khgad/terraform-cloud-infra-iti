@@ -35,6 +35,22 @@ variable "instance_type" {
 }
 
 variable "ami_image" {
-  type = string
+  type    = string
   default = "ami-06e46074ae430fba6"
+}
+
+variable "rds_endpoint" {
+  type = string
+}
+
+variable "rds_username" {
+  type = string
+}
+
+variable "ec_endpoint" {
+  type = string
+}
+
+variable "ec_port" {
+  type = string
 }
