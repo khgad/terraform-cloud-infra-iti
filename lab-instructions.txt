@@ -28,11 +28,3 @@ Compute
 
 1- create rds
 2- create elastic cache
-
-
-# notes #
-- edit IAM images to amazon linux 2 [Done]
-- edit endpoint of rds to contain only endpoint without port [Done and need to be tested]
-- move script to file [Done]
-- make sure script is running correctly [Done]
-- add RDS username and password in a secret_manager and use data source [Done]
